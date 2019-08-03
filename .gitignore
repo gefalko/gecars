@@ -1,0 +1,10 @@
+# Dependency directories
+back/node_modules/
+front/node_modules/
+#webstorm
+.idea
+#vim
+*.swp
+*.swo
+*~
+npm-debug-log

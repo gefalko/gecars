@@ -1,0 +1,217 @@
+                <div>
+                    <div   style="font-weight: 600; height:15px;">
+                        <div class="ge-error" ng-if="!oc.form.valid">{{oc.form.msg}}</div>
+                        <div style="float: right;position: relative; height:0px;">
+                            <div id="topBasket"  ng-class="{'md-whiteframe-5dp': hover}"
+                                 ng-mouseenter="hover = true"
+                                 ng-mouseleave="hover = false">
+                                <div id="basketContainer" ng-if="oc.basket.filters.length > 0" >
+                                <span>
+                                    <img style="height: 20px; padding-right: 4px" src="/img/basket.png">
+                                </span>
+                                    <span  id="basket" style="font-weight: 400;top: -3px;position: relative;" >
+                                    krepšelyje yra {{oc.basket.filters.length}} 
+                                    <span ng-if="oc.basket.filters.length == 1">filtras</span>
+                                    <span ng-if="oc.basket.filters.length > 1">filtrai</span>
+                                    už {{oc.basket.price}} &#8364
+                                </span>
+                                    </div>
+                                        <div id="basketMenu" >
+                                        <div style="padding-left: 20px">
+                                            <div ng-repeat="filter in oc.basket.filters" style="font-weight: 400; font-size:14px">
+                                        <div>   
+                                            <span style='min-width: 119px;display: inline-block;'>
+                                            {{filter.make.make}} {{filter.model.name}}
+                                        </span>
+                                        <span style='font-size:13px'>
+                                            {{filter.yearFrom}}-{{filter.yearTo}}
+                                        </span>
+                                    </div>
+                                        </div>
+                                        <md-button style="float: right" md-no-ink class="md-primary" ng-click='oc.startOrder($event)'>užsakyti</md-button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div ng-controller="AppCtrl">
+                        <form name="myForm">
+                            <md-input-container>
+                                <label >Gamintojas</label>
+                                <md-select name="makeF" ng-model="oc.filter.make" required>
+                                    <md-option ng-repeat="make in oc.makes" ng-value="make">
+                                        {{make.make}}
+                                    </md-option>
+                                </md-select>
+                            </md-input-container>
+                            <md-input-container>
+                                <label >Modelis</label>
+                                <md-select name="modelF" ng-model="oc.filter.model" required>
+                                    <md-option ng-repeat="model in oc.filter.make.models" ng-value="model"  >
+                                        {{model.name}}
+                                    </md-option>
+                                </md-select>
+                            </md-input-container>
+                            <md-input-container>
+                                <label >Kūro tipas</label>
+                                <md-select ng-model="oc.filter.fuelType" >
+                                    <md-option ng-repeat="fuelType in oc.fuelTypes" ng-value="fuelType"  >
+                                        {{fuelType.webName}}
+                                    </md-option>
+                                </md-select>
+                            </md-input-container>
+                            <br/>
+                            <md-input-container>
+                                <label >Metai nuo</label>
+                                <md-select ng-model="oc.filter.yearFrom" required>
+                                    <md-option ng-repeat="year in oc.years | orderBy:'-'" ng-value="year"  >
+                                        {{year}}
+                                    </md-option>
+                                </md-select>
+                            </md-input-container>
+                            <md-input-container>
+                                <label >Metai iki</label>
+                                <md-select ng-model="oc.filter.yearTo" required>
+                                    <md-option ng-repeat="year in oc.years | orderBy:'-' " ng-value="year" 
+						    ng-if="oc.filter.yearFrom <= year " >
+                                        {{year}}
+                                    </md-option>
+                                </md-select>
+                            </md-input-container>
+                            
+                            <style>
+
+                                .no-error .md-errors-spacer{
+                                    display: none !important;
+                                }
+
+                                .no-error input{
+                                    width: 65px;
+                                }
+
+                                .price{
+                                    margin-bottom:3px;
+                                }
+
+                            </style>
+                            
+                            <md-input-container class='no-error price' >
+                                <label>Kaina nuo</label>
+                                <input type='number' ng-model="oc.filter.priceFrom" required></input>
+                            </md-input-container>
+                            
+                            <md-input-container class='no-error price' >
+                                <label>Kaina iki</label>
+                                <input type='number' ng-model="oc.filter.priceTo" required></input>
+                            </md-input-container>
+                            
+                            <span style="    float: right;margin-top: 16px;">
+                                <md-button 
+                                    class="md-accent md-button md-ink-ripple" 
+                                    ng-click="oc.addToBasket(oc.filter, save())">
+                                    į krepšelį
+                                </md-button><!-- oc.addToBasket(oc.filter) -->
+                            </span>
+
+                        </form>
+                    </div>
+
+
+
+                </div>
+                <div >
+
+                    <style>
+                        .chip {
+                            display: inline-block;
+                            padding: 0 25px;
+                            padding-right: 10px;
+                            height: 25px;
+                            font-size: 15px;
+                            line-height: 24px;
+                            border-radius: 13.5px;
+                            background-color: #f1f1f1;
+                            margin-right: 7px;
+                            margin-bottom: 11px;
+                        }
+
+                        .chip img {
+                            float: left;
+                            margin: 0 5px 0 -25px;
+                            height: 25px;
+                            width: 25px;
+                            border-radius: 50%;
+                        }
+
+                        .closebtn {
+                            padding-left: 8px;
+                            color: #888;
+                            font-weight: bold;
+                            float: right;
+                            font-size: 20px;
+                            cursor: pointer;
+                        }
+
+                        .closebtn:hover {
+                            color: #000;
+                        }
+                    </style>
+
+                    <div class="chip" ng-repeat="provider in oc.filter.providers">
+                        <img ng-src="{{provider.webImage}}" alt="Person" width="96" height="96">
+                        {{provider.webName}}
+                        <span class="closebtn" ng-click="oc.removeProvider(provider)">&times;</span>
+                    </div>
+
+
+                    <!--
+                        <md-contact-chips
+                                ng-model="ctrl.contacts"
+                                md-contacts="ctrl.querySearch($query)"
+                                md-contact-name="name"
+                                md-contact-image="image"
+                                md-contact-email="email"
+                                md-require-match="true"
+                                md-highlight-flags="i"
+                                filter-selected="ctrl.filterSelected"
+                                placeholder="To">
+                        </md-contact-chips>
+                    -->
+                    <style>
+                        .contact-item:hover{
+                            background-color: #2196F3;
+                            cursor: pointer;
+                        }
+
+                        .contact-item:hover h3, .contact-item:hover p {
+                            color:#fff !important;
+                        }
+
+                        .ge .md-subheader-inner{
+                            padding:5px
+                        }
+
+                    </style>
+                    <md-list class="fixedRows">
+                        <md-subheader class="md-no-sticky ge">Puslapiai</md-subheader>
+                        <div style="max-height: 295px;overflow: overlay;">
+                            <md-list-item class="md-2-line contact-item" >
+                                <img src="/img/sources/plus.png" class="md-avatar" alt="pridėti puslapį" />
+                                <div class="md-list-item-text compact">
+                                    <h3>Nėra tavo?</h3>
+                                    <p>užsakyk puslapį</p>
+                                </div>
+                            </md-list-item>
+                            <md-list-item class="md-2-line contact-item" ng-repeat="(index, provider) in oc.allProviders"
+                                          ng-if="oc.filter.providers.indexOf(provider) < 0" ng-click="oc.addProvider(provider)">
+                                <img ng-src="{{provider.webImage}}" class="md-avatar" alt="{{provider.webName}}" />
+                                <div class="md-list-item-text compact">
+                                    <h3>{{provider.webName}}</h3>
+                                    <p>{{provider.country}}</p>
+                                </div>
+                            </md-list-item>
+                        </div>
+
+                    </md-list>
+                </div>

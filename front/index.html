@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>gecar - automobilių skelbimų surinkimo platforma</title>
+    <base href="/"/>
+    <meta name="verify-paysera" content="b927068a023ff4fd59dad1ffcf77c4ed">
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+
+    <!-- AngulrJS -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+    <script src="/front/lib/angular-md5/angular-md5.js"></script>
+    
+    <script src="/app/app.js"></script>
+    
+    <script src="/app/controllers/controllers.js"></script>
+    <script src="/app/controllers/order.controller.js"></script>
+    
+    <script src="/app/services/auth.service.js"></script>
+    <script src="/app/services/services.js"></script>
+ 
+    <script src="/app/directives/directives.js"></script>
+
+    <style>
+
+        #how{
+            background-color: #2196F3 !important;
+        }
+        /* screen sizes */
+
+        @media only screen and (min-width: 993px){
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-96117961-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body id="top" class="scrollspy" ng-app="gecar">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
+</div>
+
+<!--Navigation-->
+ <div class="navbar-fixed" style='z-index:10'>
+    <nav id="nav_f" class="default_color" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" id="logo-container" class="brand-logo">ge<b>car</b><span style="font-size: 18px; font-weight: 400">- automobilių paieška</span></a>
+
+                <style>
+                    .menu-button {
+                        font-weight: 900;
+                        padding-left: 50px;
+                    }
+
+                    .menu-button:hover {
+                        color:#ffcc00;
+                        background-color: transparent;
+                        cursor: pointer;
+                    }
+                </style>
+
+                <ul ng-controller='menuCtrl as mc' class="right ngCloak hide-on-med-and-down">
+                    <li ng-if="mc.isLoggedIn">{{mc.user.email}}</li>
+                    <li ng-if="!mc.isLoggedIn" class="menu-button"  ng-click='mc.login($event)' id="login">PRISIJUNGTI</li>
+                    <li ng-if="mc.isLoggedIn" class="menu-button" ng-click='mc.logout()' id="logout">atsijungti</li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#intro">Paslaugos</a></li>
+                    <li><a href="#how">Kaip veikia?</a></li>
+                    <li><a href="#team">Šaltiniai</a></li>
+                    <li><a href="#contact">Kontaktai</a></li>
+                </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<!--Hero-->
+<style>
+
+    #basketContainer{
+        padding: 10px;
+        color: #1a0dab;
+        position: relative;
+        top: 0px;
+    }
+
+    #basketMenu{
+        display: none;
+        position: absolute;
+        width: 100%;
+        background-color: #fff;
+        z-index: 10;
+        box-shadow: 0 3px 0px -1px rgba(0,0,0,.2), 0 6px 8px 0 rgba(0,0,0,.14), 0 9px 14px 0 rgba(0,0,0,.12);;
+    }
+
+    #topBasket{
+        padding-top: 10px;
+        bottom: 22px;
+        position: relative;
+
+    }
+
+
+    #basketContainer:hover ~ #basketMenu{
+        display: block;
+        background-color: #fff;
+    }
+
+    #topBasket:hover  #basketMenu{
+        display: block;
+    }
+
+    #topBasket:hover #basketContainer{
+        cursor: pointer;
+        color:rgba(0,0,0,0.54) !important;
+    }
+
+    .ge-error{
+        color:rgb(221,44,0);
+        display: inline-block;
+    }
+
+    #top-container{
+        display:flex;
+    }
+
+    @media only screen and (max-width: 993px){
+        #top-container {
+            flex-wrap:wrap;
+        }
+    }
+    
+    #order-box{
+        flex: 0 0 550px;
+    }
+
+</style>
+
+<div class="section no-pad-bot" id="index-banner" style="min-height: 100px;">
+    <div class="container">
+        <div id="top-container">
+            <div id="order-box" class="md-whiteframe-10dp" style=" background-color: #fff; margin-right:20px;">
+                
+                <style>
+                #ge-menu {
+                    background-color:#fafafb;
+                    color: #666;
+                    font-size: 13px;
+                    padding-left:20px;       
+                    line-height: 46px;
+                    border-bottom: 1px solid #ebebeb;    
+                }
+
+                #ge-menu > span {
+                    padding: 20px 15px 12px;
+                }
+
+                #ge-menu > span:hover:not(.active){
+                    cursor:pointer;
+                    border-bottom: 3px solid #4285f4;
+                }
+
+                #ge-menu > span.active{
+                    border-bottom: 3px solid #4285f4;
+                    font-weight: 500;    
+                }
+
+                </style>
+                <div id="ge-menu" ng-controller="gemenuCtrl as menu">
+                    <span ng-repeat="item in menu.items" ng-class='{active: item.active}' ng-click="menu.go(item)">{{item.name}}</span>
+                </div>
+
+                <div style="padding: 20px;" ng-view></div>
+            </div>
+            <style>
+                #info {
+                    color:#fff;
+                    padding-top:50px;    
+                    font-family: Roboto,sans-serif;    
+                }
+           
+                #info .title {
+                    padding-top:15px;
+                    font-weight:bold; 
+                    color:#ffcc00;    
+                }
+                
+                #info ul li{
+                    padding:1px;
+                }
+
+            </style>
+            <div id="info" ng-controller="infoCtrl as ic">
+                <div id="tab1">
+                    <div><b>Gecar</b> stebi europos automobilių rinką ir suteikia galimybę Jums pirmiems sužinoti apie Jus dominančius automobilius. Sutaupykite laiką kurį praleidžiate tikrindami automobilių skelbimų portalus.</div>
+                    <div class="title">Pirkėjams</div>
+                    <ul>
+                        <li> + Gauk naujausią informaciją apie skelbimą.</li>
+                        <li> + Taupykite laiką, nes nereikės tikrinti skelbimų portalų.</li>
+                        <li> + Automobiliai filtruojami pagal nustatytą filtrą.</li>
+                        <li> + Informaciją apie skelbimus gausite į el.paštą.</li>
+                    </ul>
+                    <div class="title">Pardavėjams</div>                
+                    <ul>
+                        <li> + Filtrų nustatymas pagal kainą leis Jums gauti geriausius skelbimus.</li>
+                        <li> + Pirmas sužinosite apie naują skelbimą.</li>
+                        <li> + Sutaupysite laiko, nes nereikės tikrinti skelbimų portalų.</li>
+                        <li> + Informaciją apie skelbimus gausite į el.paštą.</li>
+                    </ul>    
+                    <div class="title">Apie puslapius</div>                
+                    <ul>
+                        <li> + Skelbimų portalai iš visos europos.</li>
+                        <li> + Galimybė užsakyti dominantį puslapį.</li>
+                        <li> + Naują puslapį įdiegsime per 3 darbo dienas.</li>
+                    </ul>
+                </div>
+                <div id="tab2">
+                    <my-app>Loading...</my-app>
+                    <script type="text/javascript" src="ng2/dist/vendorNG2.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section scrollspy" id="how" style="margin-top: -30px;padding-top: 130px;padding-bottom: 100px;">
+    <div class="container">
+        <h3 class="header text_b" style="color: #fff;text-align: center;"> Kaip tai veikia?</h3>
+        <div class="row" style="color: #fff;padding-top: 83px;">
+            <div class="col s12 l3">
+                <div class="center promo promo-example">
+
+                    <h5 class="promo-caption">1. Užsakyk filtrus</h5>
+                    <p class="light center" style="color: #fff;">Pasirink dominančių automobilų filtrus pagal kuruos tau bus ieškoma skelbimų. Pasirink skelbimų šaltinių portalus. Jei neradai tave dominančio, nebėda, užsakyk ir mes jį įdiegsim. </p>
+                </div>
+            </div>
+            <div class="col s12 l3">
+                <div class="center promo promo-example">
+                    <h5 class="promo-caption">2. Sužinok</h5>
+                    <p class="light center">Sistema stebi įvairius automobilių skelbimų portalus, atsiradus naujam Jūsų kriterijus atitinkančiam automobiliui Jūs gausite pranešimą apie skelbimą.</p>
+                </div>
+            </div>
+            <div class="col s12 l3">
+                <div class="center promo promo-example">
+                    <h5 class="promo-caption">3. Nupirk</h5>
+                    <p class="light center">Nupirk tave dominantį automobilį, taip sutaupydamas laiką kurį skiri automobilių skelbimų portalų naršymui.</p>
+                </div>
+            </div>
+            <div class="col s12 l3">
+                <div class="center promo promo-example">
+                    <h5 class="promo-caption" style="color:#ffcc00">4. Uždirbk</h5>
+                    <p class="light center">Nupirkęs pigų ir kokybišką automobilį gali uždirbti jį perpardavęs. Gecar veikia visoje europoje. Esi emigrantas? nupirk automobolį, parvažuok, parduok, uždirbk.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Parallax-->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/cars.png"></div>
+</div>
+
+<!--Intro and service-->
+<div id="intro" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="center header text_h2"> ge<b>car</b> - parduodamų <span class="span_h2">automobilių</span> skelbimų platforma teikia galimybę gauti informaciją apie parduodamus automobilius Europoje ir netik.</h2>
+            </div>
+
+            <div  class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="mdi-image-flash-on"></i>
+                    <h5 class="promo-caption">KAM?</h5>
+                    <p class="light center">Automobilių prekeiviams norintiems sutaupyti laiko ir nepražiopsoti galimybės nupirkti gera automobilį už gerą kainą.</p>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="mdi-action-settings"></i>
+                    <h5 class="promo-caption">KODĖL?</h5>
+                    <p class="light center">Gauk informaciją pirmas apie atsiradusį rinkoje naują  automobilį. Sutaupysite laiko kurį praleidžiate naršydami skelbimų portalus ieškodami tinkamo varianto.</p>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="mdi-content-mail"></i>
+                    <h5 class="promo-caption">KAIP?</h5>
+                    <p class="light center">Sistema stebi įvairius automobilių skelbimų portalus, atsiradus naujam Jūsų kriterijus atitinkančiam automobiliui Jūs gausite pranešimą apie skelbimą.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Team-->
+<div class="section scrollspy" id="team">
+    <div class="container">
+        <h2 class="header text_b" > Skelbimų šaltiniai  </h2>
+        <div class="row">
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/avatar1.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Nėra tavo? <br/>
+                            <small><em><a class="red-text text-darken-1" >Užsisakyk</a></em></small></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/sources/gumtree.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">gumtree.com<br/>
+                            <small><em><a class="red-text text-darken-1" >UK</a></em></small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/sources/ebay.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            ebay.co.uk <br/>
+                            <small><em><a class="red-text text-darken-1" >UK</a></em></small></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/sources/auto-trader.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">autotrader.co.uk<br/>
+                            <small><em><a class="red-text text-darken-1" >UK</a></em></small></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/flags/Flag_of_Italy.svg.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Italija<br/>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/flags/250px-Flag_of_Germany.svg.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Vokiatija<br/>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/flags/Flag_of_France.svg.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Prancuzija<br/>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <img class="activator" src="img/flags/Flag_of_Europe.svg.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Europa<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">  
+        <div class="row">
+            <!--
+            <div class="col l6 s12">
+                <form class="col s12" action="contact.php" method="post">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="mdi-action-account-circle prefix white-text"></i>
+                            <input id="icon_prefix" name="name" type="text" class="validate white-text">
+                            <label for="icon_prefix" class="white-text">Vardas</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="mdi-communication-email prefix white-text"></i>
+                            <input id="icon_email" name="email" type="email" class="validate white-text">
+                            <label for="icon_email" class="white-text">El. paštas</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="mdi-editor-mode-edit prefix white-text"></i>
+                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
+                            <label for="icon_prefix2" class="white-text">Žinutė</label>
+                        </div>
+                        <div class="col offset-s7 s5">
+                            <button class="btn waves-effect waves-light red darken-1" type="submit">Siųsti
+                                <i class="mdi-content-send right white-text"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            -->
+            <div class="col l4 s12">
+                <h5 class="white-text">Skambinkite visada padėsime</h5>
+                <h6 class="white-text">Kontaktai pasiteiravimui ir paslaugų užsakymams</h6>
+                <h6 class="white-text"></h6>
+                <ul>
+                    <li><a class="white-text" >tel: +370 692 74742</a></li>
+                    <li><a class="white-text" >gecars@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright default_color">
+        <div class="container">
+            Made by <a class="white-text" href="http://gehive.com">gesoft =]</a>
+        </div>
+    </div>
+    <!-- ng2 
+    <my-app>Loading...</my-app>
+	<script type="text/javascript" src="ng2/dist/vendorNG2.js"></script>
+    -->
+</footer>
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+
+    </body>
+</html>

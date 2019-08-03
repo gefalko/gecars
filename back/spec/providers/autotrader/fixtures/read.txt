@@ -1,0 +1,10 @@
+In this folder is storing html for testing real pages.
+
+Files names example
+
+    pf_0_pt4000_yf99_yt02_ft_petrol.html :
+        price from 0
+        price to 4000
+        years from 1999
+        years to 2002
+        fuel type petrol

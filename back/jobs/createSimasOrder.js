@@ -1,0 +1,3 @@
+/**
+ * Load all filters
+ */

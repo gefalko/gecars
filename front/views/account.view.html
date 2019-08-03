@@ -1,0 +1,69 @@
+<style>
+    .capitalize{
+        text-transform: capitalize;        
+    }
+
+    .account-order:not(:last-child){
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid;
+    }
+
+    .status-active, .green{
+        color:#3d9400;
+    }
+
+    .status-not-active, .redColor{
+        color:rgb(221,44,0);
+    }
+
+    #account .title{
+        border-bottom: 1px dotted;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    #account .filter{
+        padding-bottom: 15px;
+    }
+
+    #account .filter-info{
+        font-weight:500;
+    }
+
+    #account .filter-providers{
+        font-style: italic;
+    }
+</style>
+<div id="account">
+    <div class="account-order" ng-repeat="order in account.orders">
+        <div class="title">
+            <span> sukurtas : {{order.createDate | date:'yyyy-MM-dd HH:mm'}} | </span>
+            <span class="status-active" ng-if="order.payed">apmokėtas</span>
+            <span class="status-not-active" ng-if="!order.payed">neapmokėtas</span> |
+            <span class="status-active" ng-if="order.status == 1">aktyvuotas iki </span>  
+            <span ng-if="order.status == 1">{{order.end | date:'yyyy-MM-dd HH:mm'}}</span>
+            <span class="status-not-active" ng-if="order.status != 1">neaktyvuotas</span>
+            <div>
+                <span> 
+                    Užsakymo trukmė: {{order.duration}} 
+                    <span ng-if="order.duration > 1">mėnesiai</span>
+                    <span ng-if="order.duration < 2">mėnesis</span>
+                    <span ng-if="order.duration > 9">mėnesių</span>
+                </span>
+            </div>
+        </div>
+        <div>Filtrai:</div> 
+        <div class="filter" ng-repeat="filter in order.filters">
+            <div class="filter-info">
+                
+                <span class="green" ng-if="filter.status == 1"> aktyvuotas </span>
+                <span class="redColor" ng-if="filter.status != 1"> neaktyvuotas </span>
+                - <span class="capitalize">{{filter.make.make}} {{filter.model.name}}</span> {{filter.fuel2}} {{filter.yearFrom}}-{{filter.yearTo}} {{filter.priceFrom}}-{{filter.priceTo}} &#8364;</div>
+            <div class="filter-providers">
+                <span ng-repeat="provider in filter.providers">{{provider.webName}} </span>
+            </div>
+        </div>
+    </div>
+
+</div>    

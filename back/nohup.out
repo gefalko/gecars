@@ -1,0 +1,1312 @@
+(node:14076) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+Mongoose connected to mongodb://localhost/gecar
+Collect gumtree of filter bmw X5
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=bmw&vehicle_model=X5&q=&min_price=0&max_price=3500
+58b6c0eac00b0921b77a3bfe <-filterID Collected new ads: of filter:bmw X5 | 2013-2016 0-3500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3bfe
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter bmw X5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=X5&price-from=0&price-to=3500&year-from=2013&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter bmw X5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=X5&price-from=0&price-to=3500&year-from=2013&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter bmw 530
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=bmw&vehicle_model=530&q=&min_price=0&max_price=1200&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3bff <-filterID Collected new ads: of filter:bmw 530 | 1990-2016 0-1200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3bff
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter bmw 530
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=2
+2 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=3
+3 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=4
+4 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=5
+5 of 5
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter bmw 530
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=2
+2 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=3
+3 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=4
+4 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=5
+5 of 5
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter bmw 530
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=bmw&vehicle_model=530&q=&min_price=0&max_price=2300&vehicle_fuel_type=diesel
+58b6c0eac00b0921b77a3c00 <-filterID Collected new ads: of filter:bmw 530 | 2003-2016 0-2300
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c00
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter bmw 530
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2300&year-from=2003&year-to=2016&vehicle_fuel_type=diesel&page=1
+1 of 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2300&year-from=2003&year-to=2016&vehicle_fuel_type=diesel&page=2
+Autotrader: FOUND NEW ADD -> https://www.autotrader.co.uk/classified/advert/201703032879972?advertising-location=at_cars&postcode=dn91jf&year-from=2003&make=bmw&radius=1501&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&price-from=0&price-to=2300&model=5%20SERIES&sort=price-asc&year-to=2016&page=1
+2 of 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2300&year-from=2003&year-to=2016&vehicle_fuel_type=diesel&page=3
+3 of 3
+New ads of folter [1]Total ads [1]
+=====================================================================================
+Collect autotrader of filter bmw 530
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2300&year-from=2003&year-to=2016&vehicle_fuel_type=diesel&page=1
+1 of 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2300&year-from=2003&year-to=2016&vehicle_fuel_type=diesel&page=2
+Autotrader: FOUND NEW ADD -> https://www.autotrader.co.uk/classified/advert/201703032879972?price-to=2300&make=bmw&year-to=2016&model=5%20SERIES&price-from=0&year-from=2003&advertising-location=at_cars&radius=1501&postcode=dn91jf&sort=price-asc&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&page=1
+2 of 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2300&year-from=2003&year-to=2016&vehicle_fuel_type=diesel&page=3
+3 of 3
+New ads of folter [1]Total ads [2]
+=====================================================================================
+Collect gumtree of filter bmw 523
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=bmw&vehicle_model=523&q=&min_price=0&max_price=2500&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c01 <-filterID Collected new ads: of filter:bmw 523 | 2003-2016 0-2500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c01
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter bmw 523
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=2
+Autotrader: FOUND NEW ADD -> https://www.autotrader.co.uk/classified/advert/201703032879972?sort=price-asc&year-from=2003&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&radius=1501&model=5%20SERIES&year-to=2016&postcode=dn91jf&price-to=2500&price-from=0&make=bmw&advertising-location=at_cars&page=1
+2 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=3
+3 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=4
+4 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=5
+5 of 5
+New ads of folter [1]Total ads [3]
+=====================================================================================
+Collect autotrader of filter bmw 523
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=2
+Autotrader: FOUND NEW ADD -> https://www.autotrader.co.uk/classified/advert/201703032879972?sort=price-asc&year-from=2003&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&radius=1501&model=5%20SERIES&year-to=2016&postcode=dn91jf&price-to=2500&price-from=0&make=bmw&advertising-location=at_cars&page=1
+2 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=3
+3 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=4
+4 of 5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=5
+5 of 5
+New ads of folter [1]Total ads [4]
+=====================================================================================
+Collect gumtree of filter chevrolet cruze
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=chevrolet&vehicle_model=cruze&q=&min_price=0&max_price=2200&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c02 <-filterID Collected new ads: of filter:chevrolet cruze | 1990-2016 0-2200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c02
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect ebay of filter chevrolet cruze
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=cruze&price-from=0&price-to=2200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect autotrader of filter chevrolet cruze
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=cruze&price-from=0&price-to=2200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect gumtree of filter chevrolet lacetti
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=chevrolet&vehicle_model=lacetti&q=&min_price=0&max_price=800&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c03 <-filterID Collected new ads: of filter:chevrolet lacetti | 1990-2016 0-800
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c03
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect ebay of filter chevrolet lacetti
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=lacetti&price-from=0&price-to=800&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=lacetti&price-from=0&price-to=800&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=2
+2 of 2
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect autotrader of filter chevrolet lacetti
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=lacetti&price-from=0&price-to=800&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=lacetti&price-from=0&price-to=800&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=2
+2 of 2
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect gumtree of filter honda accord
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=honda&vehicle_model=accord&q=&min_price=0&max_price=1500&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c04 <-filterID Collected new ads: of filter:honda accord | 2006-2016 0-1500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c04
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect ebay of filter honda accord
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=honda&model=accord&price-from=0&price-to=1500&year-from=2006&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 1
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect autotrader of filter honda accord
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=honda&model=accord&price-from=0&price-to=1500&year-from=2006&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 1
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect gumtree of filter lexus rx
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=lexus&vehicle_model=rx&q=&min_price=0&max_price=2200
+58b6c0eac00b0921b77a3c05 <-filterID Collected new ads: of filter:lexus rx | 2003-2016 0-2200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c05
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect ebay of filter lexus rx
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=lexus&model=rx&price-from=0&price-to=2200&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect autotrader of filter lexus rx
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=lexus&model=rx&price-from=0&price-to=2200&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect gumtree of filter lexus gs
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=lexus&vehicle_model=gs&q=&min_price=0&max_price=2200
+58b6c0eac00b0921b77a3c06 <-filterID Collected new ads: of filter:lexus gs | 2003-2016 0-2200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c06
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect ebay of filter lexus gs
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=lexus&model=gs&price-from=0&price-to=2200&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect autotrader of filter lexus gs
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=lexus&model=gs&price-from=0&price-to=2200&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect gumtree of filter mazda 3
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mazda&vehicle_model=3&q=&min_price=0&max_price=1300&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c07 <-filterID Collected new ads: of filter:mazda 3 | 2004-2007 0-1300
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c07
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect ebay of filter mazda 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=1
+1 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=2
+2 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=3
+3 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=4
+4 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=5
+5 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=6
+6 of 6
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect autotrader of filter mazda 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=1
+1 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=2
+2 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=3
+3 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=4
+4 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=5
+5 of 6
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=6
+6 of 6
+New ads of folter [0]Total ads [4]
+=====================================================================================
+Collect gumtree of filter mercedes-benz e-class
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mercedes-benz&vehicle_model=e-class&q=&min_price=0&max_price=2000
+58b6c0eac00b0921b77a3c08 <-filterID Collected new ads: of filter:mercedes-benz e-class | 2003-2016 0-2000
+[ { filter: 58b6c0eac00b0921b77a3c08,
+    make: 58b6c0eac00b0921b77a3bde,
+    model: 58b6c0eac00b0921b77a3bed,
+    fuel: 'Diesel',
+    makeYear: 2003,
+    price: 2000,
+    providerAdId: 'ad-1220589184',
+    url: 'https://www.gumtree.com/p/mercedes-benz/mercedes-benz-e-class/1220589184',
+    img: 'https://i.ebayimg.com/00/s/MTAyNFg3Njg=/z/BNQAAOSwuxFYuW-S/$_99.JPG' } ]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c08
+New ads of folter [1]Total ads [5]
+=====================================================================================
+Collect ebay of filter mercedes-benz e-class
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mercedes-benz&model=E CLASS&price-from=0&price-to=2000&year-from=2003&year-to=2016&page=1
+1 of 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mercedes-benz&model=E CLASS&price-from=0&price-to=2000&year-from=2003&year-to=2016&page=2
+2 of 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mercedes-benz&model=E CLASS&price-from=0&price-to=2000&year-from=2003&year-to=2016&page=3
+3 of 3
+New ads of folter [0]Total ads [5]
+=====================================================================================
+Collect autotrader of filter mercedes-benz e-class
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mercedes-benz&model=E CLASS&price-from=0&price-to=2000&year-from=2003&year-to=2016&page=1
+1 of 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mercedes-benz&model=E CLASS&price-from=0&price-to=2000&year-from=2003&year-to=2016&page=2
+2 of 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mercedes-benz&model=E CLASS&price-from=0&price-to=2000&year-from=2003&year-to=2016&page=3
+3 of 3
+New ads of folter [0]Total ads [5]
+=====================================================================================
+Collect gumtree of filter mitsubishi l200
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=l200&q=&min_price=0&max_price=2800
+58b6c0eac00b0921b77a3c09 <-filterID Collected new ads: of filter:mitsubishi l200 | 2006-2016 0-2800
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c09
+New ads of folter [0]Total ads [5]
+=====================================================================================
+Collect ebay of filter mitsubishi l200
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=l200&price-from=0&price-to=2800&year-from=2006&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [5]
+=====================================================================================
+Collect autotrader of filter mitsubishi l200
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=l200&price-from=0&price-to=2800&year-from=2006&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [5]
+=====================================================================================
+Collect gumtree of filter mitsubishi outlander
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=outlander&q=&min_price=0&max_price=1600
+58b6c0eac00b0921b77a3c0a <-filterID Collected new ads: of filter:mitsubishi outlander | 2006-2016 0-1600
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0a
+New ads of folter [0]Total ads [5]
+=====================================================================================
+Collect ebay of filter mitsubishi outlander
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=outlander&price-from=0&price-to=1600&year-from=2006&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [5]
+=====================================================================================
+Collect autotrader of filter mitsubishi outlander
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=outlander&price-from=0&price-to=1600&year-from=2006&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [5]
+=====================================================================================
+Collect gumtree of filter mitsubishi lancer
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=lancer&q=&min_price=0&max_price=1300
+58b6c0eac00b0921b77a3c0b <-filterID Collected new ads: of filter:mitsubishi lancer | 1990-2016 0-1300
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0b
+New ads of folter [0]Total ads [5]
+=====================================================================================
+Collect ebay of filter mitsubishi lancer
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=lancer&price-from=0&price-to=1300&year-from=1990&year-to=2016&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=lancer&price-from=0&price-to=1300&year-from=1990&year-to=2016&page=2
+Autotrader: FOUND NEW ADD -> https://www.autotrader.co.uk/classified/advert/201703032881392?year-from=1990&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&radius=1501&price-from=0&make=mitsubishi&advertising-location=at_cars&postcode=dn91jf&price-to=1300&sort=price-asc&model=lancer&year-to=2016&page=1
+2 of 2
+New ads of folter [1]Total ads [6]
+=====================================================================================
+Collect autotrader of filter mitsubishi lancer
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=lancer&price-from=0&price-to=1300&year-from=1990&year-to=2016&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=lancer&price-from=0&price-to=1300&year-from=1990&year-to=2016&page=2
+Autotrader: FOUND NEW ADD -> https://www.autotrader.co.uk/classified/advert/201703032881392?model=lancer&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&postcode=dn91jf&price-to=1300&sort=price-asc&year-from=1990&price-from=0&advertising-location=at_cars&year-to=2016&make=mitsubishi&radius=1501&page=1
+2 of 2
+New ads of folter [1]Total ads [7]
+=====================================================================================
+Collect gumtree of filter mitsubishi shogun-sport
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=shogun-sport&q=&min_price=0&max_price=1200
+58b6c0eac00b0921b77a3c0c <-filterID Collected new ads: of filter:mitsubishi shogun-sport | 1990-2016 0-1200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0c
+New ads of folter [0]Total ads [7]
+=====================================================================================
+Collect ebay of filter mitsubishi shogun-sport
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=SHOGUN SPORT&price-from=0&price-to=1200&year-from=1990&year-to=2016&page=1
+1 of 1
+New ads of folter [0]Total ads [7]
+=====================================================================================
+Collect autotrader of filter mitsubishi shogun-sport
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=SHOGUN SPORT&price-from=0&price-to=1200&year-from=1990&year-to=2016&page=1
+1 of 1
+New ads of folter [0]Total ads [7]
+=====================================================================================
+Collect gumtree of filter mitsubishi grandis
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=grandis&q=&min_price=0&max_price=1200
+58b6c0eac00b0921b77a3c0d <-filterID Collected new ads: of filter:mitsubishi grandis | 1990-2016 0-1200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0d
+New ads of folter [0]Total ads [7]
+=====================================================================================
+Collect ebay of filter mitsubishi grandis
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=grandis&price-from=0&price-to=1200&year-from=1990&year-to=2016&page=1
+1 of 1
+New ads of folter [0]Total ads [7]
+=====================================================================================
+Collect autotrader of filter mitsubishi grandis
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=grandis&price-from=0&price-to=1200&year-from=1990&year-to=2016&page=1
+1 of 1
+New ads of folter [0]Total ads [7]
+=====================================================================================
+Collect gumtree of filter mitsubishi colt
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=colt&q=&min_price=0&max_price=900&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c0e <-filterID Collected new ads: of filter:mitsubishi colt | 1990-2016 0-900
+[ { filter: 58b6c0eac00b0921b77a3c0e,
+    make: 58b6c0eac00b0921b77a3bdf,
+    model: 58b6c0eac00b0921b77a3bf9,
+    fuel: 'Petrol',
+    makeYear: 2006,
+    price: 700,
+    providerAdId: 'ad-1220600213',
+    url: 'https://www.gumtree.com/p/mitsubishi/2006-mitsubishi-colt-cz-1.1-petrol/1220600213',
+    img: 'https://i.ebayimg.com/00/s/MTAyNFg3Njg=/z/UuoAAOSwfVpYuXbS/$_99.JPG' } ]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0e
+New ads of folter [1]Total ads [8]
+=====================================================================================
+Collect ebay of filter mitsubishi colt
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=colt&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=colt&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=2
+2 of 2
+New ads of folter [0]Total ads [8]
+=====================================================================================
+Collect autotrader of filter mitsubishi colt
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=colt&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=colt&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=2
+2 of 2
+New ads of folter [0]Total ads [8]
+=====================================================================================
+Collect gumtree of filter nissan qashqai
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=nissan&vehicle_model=qashqai&q=&min_price=0&max_price=2700
+58b6c0eac00b0921b77a3c0f <-filterID Collected new ads: of filter:nissan qashqai | 1990-2016 0-2700
+[ { filter: 58b6c0eac00b0921b77a3c0f,
+    make: 58b6c0eac00b0921b77a3be0,
+    model: 58b6c0eac00b0921b77a3bfa,
+    fuel: 'Petrol',
+    makeYear: 2007,
+    price: 2500,
+    providerAdId: 'ad-1220597647',
+    url: 'https://www.gumtree.com/p/nissan/nissan-qashqai-2007-1.6-petrol/1220597647',
+    img: 'https://i.ebayimg.com/00/s/NTc2WDEwMjQ=/z/oKwAAOSw32lYuXNV/$_99.JPG' } ]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0f
+New ads of folter [1]Total ads [9]
+=====================================================================================
+Collect ebay of filter nissan qashqai
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=nissan&model=qashqai&price-from=0&price-to=2700&year-from=1990&year-to=2016&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter nissan qashqai
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=nissan&model=qashqai&price-from=0&price-to=2700&year-from=1990&year-to=2016&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter skoda superb
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=skoda&vehicle_model=superb&q=&min_price=0&max_price=900&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c10 <-filterID Collected new ads: of filter:skoda superb | 1990-2016 0-900
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c10
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect ebay of filter skoda superb
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=superb&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter skoda superb
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=superb&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter skoda octavia
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=skoda&vehicle_model=octavia&q=&min_price=0&max_price=800
+58b6c0eac00b0921b77a3c11 <-filterID Collected new ads: of filter:skoda octavia | 2001-2004 0-800
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c11
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect ebay of filter skoda octavia
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=octavia&price-from=0&price-to=800&year-from=2001&year-to=2004&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=octavia&price-from=0&price-to=800&year-from=2001&year-to=2004&page=2
+2 of 2
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter skoda octavia
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=octavia&price-from=0&price-to=800&year-from=2001&year-to=2004&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=octavia&price-from=0&price-to=800&year-from=2001&year-to=2004&page=2
+2 of 2
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter subaru tribeca
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=tribeca&q=&min_price=0&max_price=3000
+58b6c0eac00b0921b77a3c12 <-filterID Collected new ads: of filter:subaru tribeca | 1990-2008 0-3000
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c12
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect ebay of filter subaru tribeca
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=tribeca&price-from=0&price-to=3000&year-from=1990&year-to=2008&page=1
+1 of 0
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter subaru tribeca
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=tribeca&price-from=0&price-to=3000&year-from=1990&year-to=2008&page=1
+1 of 0
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter subaru forester
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=forester&q=&min_price=0&max_price=1200
+58b6c0eac00b0921b77a3c13 <-filterID Collected new ads: of filter:subaru forester | 2002-2004 0-1200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c13
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect ebay of filter subaru forester
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=forester&price-from=0&price-to=1200&year-from=2002&year-to=2004&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter subaru forester
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=forester&price-from=0&price-to=1200&year-from=2002&year-to=2004&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter subaru forester
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=forester&q=&min_price=0&max_price=2200
+58b6c0eac00b0921b77a3c14 <-filterID Collected new ads: of filter:subaru forester | 2005-2007 0-2200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c14
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect ebay of filter subaru forester
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=forester&price-from=0&price-to=2200&year-from=2005&year-to=2007&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter subaru forester
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=forester&price-from=0&price-to=2200&year-from=2005&year-to=2007&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter subaru outback
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=outback&q=&min_price=0&max_price=2500&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c15 <-filterID Collected new ads: of filter:subaru outback | 2006-2008 0-2500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c15
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect ebay of filter subaru outback
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=outback&price-from=0&price-to=2500&year-from=2006&year-to=2008&vehicle_fuel_type=petrol&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter subaru outback
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=outback&price-from=0&price-to=2500&year-from=2006&year-to=2008&vehicle_fuel_type=petrol&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter subaru outback
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=outback&q=&min_price=0&max_price=1500&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c16 <-filterID Collected new ads: of filter:subaru outback | 2004-2006 0-1500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c16
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect ebay of filter subaru outback
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=outback&price-from=0&price-to=1500&year-from=2004&year-to=2006&vehicle_fuel_type=petrol&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter subaru outback
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=outback&price-from=0&price-to=1500&year-from=2004&year-to=2006&vehicle_fuel_type=petrol&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter toyota camry
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=toyota&vehicle_model=camry&q=&min_price=0&max_price=1500
+58b6c0eac00b0921b77a3c17 <-filterID Collected new ads: of filter:toyota camry | 2002-2016 0-1500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c17
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect ebay of filter toyota camry
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=toyota&model=camry&price-from=0&price-to=1500&year-from=2002&year-to=2016&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter toyota camry
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=toyota&model=camry&price-from=0&price-to=1500&year-from=2002&year-to=2016&page=1
+1 of 1
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter toyota landcruiser
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=toyota&vehicle_model=landcruiser&q=&min_price=0&max_price=3500
+58b6c0eac00b0921b77a3c18 <-filterID Collected new ads: of filter:toyota landcruiser | 2003-2016 0-3500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c18
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect ebay of filter toyota landcruiser
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=toyota&model=LAND CRUISER&price-from=0&price-to=3500&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect autotrader of filter toyota landcruiser
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=toyota&model=LAND CRUISER&price-from=0&price-to=3500&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [9]
+=====================================================================================
+Collect gumtree of filter volkswagen passat
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=volkswagen&vehicle_model=passat&q=&min_price=0&max_price=1300
+58b6c0eac00b0921b77a3c19 <-filterID Collected new ads: of filter:volkswagen passat | 2005-2016 0-1300
+[ { filter: 58b6c0eac00b0921b77a3c19,
+    make: 58b6c0eac00b0921b77a3be4,
+    model: 58b6c0eac00b0921b77a3bfd,
+    fuel: 'Diesel',
+    makeYear: 2005,
+    price: 1095,
+    providerAdId: 'ad-1220602926',
+    url: 'https://www.gumtree.com/p/volkswagen/volkswagen-passat-1.9-tdi-pd-sport/1220602926',
+    img: 'https://i.ebayimg.com/00/s/MTAyNFg3Njg=/z/ZvwAAOSwSlBYuX5z/$_99.JPG' },
+  { filter: 58b6c0eac00b0921b77a3c19,
+    make: 58b6c0eac00b0921b77a3be4,
+    model: 58b6c0eac00b0921b77a3bfd,
+    fuel: 'Diesel',
+    makeYear: 2008,
+    price: 1195,
+    providerAdId: 'ad-1220599045',
+    url: 'https://www.gumtree.com/p/volkswagen/2008-volkswagen-passat-2.0tdi-highline-top-spec-bargain-price-£1195/1220599045',
+    img: 'https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/9bsAAOSwOgdYuXsv/$_99.JPG' } ]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c19
+New ads of folter [2]Total ads [11]
+=====================================================================================
+Collect ebay of filter volkswagen passat
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=volkswagen&model=passat&price-from=0&price-to=1300&year-from=2005&year-to=2016&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=volkswagen&model=passat&price-from=0&price-to=1300&year-from=2005&year-to=2016&page=2
+2 of 2
+New ads of folter [0]Total ads [11]
+=====================================================================================
+Collect autotrader of filter volkswagen passat
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=volkswagen&model=passat&price-from=0&price-to=1300&year-from=2005&year-to=2016&page=1
+1 of 2
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=volkswagen&model=passat&price-from=0&price-to=1300&year-from=2005&year-to=2016&page=2
+2 of 2
+New ads of folter [0]Total ads [11]
+=====================================================================================
+COLLECTING FINISHED NEW ADS SIZE[11]
+Res from db after insert many operation:
+{ result: { ok: 1, n: 11 },
+  ops: 
+   [ { filter: 58b6c0eac00b0921b77a3c00,
+       make: 58b6c0eac00b0921b77a3bd9,
+       model: 58b6c0eac00b0921b77a3bea,
+       fuel: 'Diesel',
+       makeYear: 2003,
+       price: 1450,
+       providerAdId: '201703032879972',
+       url: 'https://www.autotrader.co.uk/classified/advert/201703032879972?advertising-location=at_cars&postcode=dn91jf&year-from=2003&make=bmw&radius=1501&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&price-from=0&price-to=2300&model=5%20SERIES&sort=price-asc&year-to=2016&page=1',
+       img: '/images/noimage/no_image_164x124.png',
+       _id: 58b9816eea968c36fc9636f5 },
+     { filter: 58b6c0eac00b0921b77a3c00,
+       make: 58b6c0eac00b0921b77a3bd9,
+       model: 58b6c0eac00b0921b77a3bea,
+       fuel: 'Diesel',
+       makeYear: 2003,
+       price: 1450,
+       providerAdId: '201703032879972',
+       url: 'https://www.autotrader.co.uk/classified/advert/201703032879972?price-to=2300&make=bmw&year-to=2016&model=5%20SERIES&price-from=0&year-from=2003&advertising-location=at_cars&radius=1501&postcode=dn91jf&sort=price-asc&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&page=1',
+       img: '/images/noimage/no_image_164x124.png',
+       _id: 58b9816eea968c36fc9636f6 },
+     { filter: 58b6c0eac00b0921b77a3c01,
+       make: 58b6c0eac00b0921b77a3bd9,
+       model: 58b6c0eac00b0921b77a3beb,
+       fuel: 'Diesel',
+       makeYear: 2003,
+       price: 1450,
+       providerAdId: '201703032879972',
+       url: 'https://www.autotrader.co.uk/classified/advert/201703032879972?sort=price-asc&year-from=2003&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&radius=1501&model=5%20SERIES&year-to=2016&postcode=dn91jf&price-to=2500&price-from=0&make=bmw&advertising-location=at_cars&page=1',
+       img: '/images/noimage/no_image_164x124.png',
+       _id: 58b9816eea968c36fc9636f7 },
+     { filter: 58b6c0eac00b0921b77a3c01,
+       make: 58b6c0eac00b0921b77a3bd9,
+       model: 58b6c0eac00b0921b77a3beb,
+       fuel: 'Diesel',
+       makeYear: 2003,
+       price: 1450,
+       providerAdId: '201703032879972',
+       url: 'https://www.autotrader.co.uk/classified/advert/201703032879972?sort=price-asc&year-from=2003&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&radius=1501&model=5%20SERIES&year-to=2016&postcode=dn91jf&price-to=2500&price-from=0&make=bmw&advertising-location=at_cars&page=1',
+       img: '/images/noimage/no_image_164x124.png',
+       _id: 58b9816eea968c36fc9636f8 },
+     { filter: 58b6c0eac00b0921b77a3c08,
+       make: 58b6c0eac00b0921b77a3bde,
+       model: 58b6c0eac00b0921b77a3bed,
+       fuel: 'Diesel',
+       makeYear: 2003,
+       price: 2000,
+       providerAdId: 'ad-1220589184',
+       url: 'https://www.gumtree.com/p/mercedes-benz/mercedes-benz-e-class/1220589184',
+       img: 'https://i.ebayimg.com/00/s/MTAyNFg3Njg=/z/BNQAAOSwuxFYuW-S/$_99.JPG',
+       _id: 58b9816eea968c36fc9636f9 },
+     { filter: 58b6c0eac00b0921b77a3c0b,
+       make: 58b6c0eac00b0921b77a3bdf,
+       model: 58b6c0eac00b0921b77a3bf5,
+       fuel: 'Petrol',
+       makeYear: 2005,
+       price: 1000,
+       providerAdId: '201703032881392',
+       url: 'https://www.autotrader.co.uk/classified/advert/201703032881392?year-from=1990&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&radius=1501&price-from=0&make=mitsubishi&advertising-location=at_cars&postcode=dn91jf&price-to=1300&sort=price-asc&model=lancer&year-to=2016&page=1',
+       img: 'http://pictures2.autotrader.co.uk/imgser-uk/servlet/media?id=a3987b18a2964bceadc2e00ef71e0e18&width=164&height=124',
+       _id: 58b9816eea968c36fc9636fa },
+     { filter: 58b6c0eac00b0921b77a3c0b,
+       make: 58b6c0eac00b0921b77a3bdf,
+       model: 58b6c0eac00b0921b77a3bf5,
+       fuel: 'Petrol',
+       makeYear: 2005,
+       price: 1000,
+       providerAdId: '201703032881392',
+       url: 'https://www.autotrader.co.uk/classified/advert/201703032881392?model=lancer&onesearchad=New&onesearchad=Nearly%20New&onesearchad=Used&postcode=dn91jf&price-to=1300&sort=price-asc&year-from=1990&price-from=0&advertising-location=at_cars&year-to=2016&make=mitsubishi&radius=1501&page=1',
+       img: 'http://pictures2.autotrader.co.uk/imgser-uk/servlet/media?id=a3987b18a2964bceadc2e00ef71e0e18&width=164&height=124',
+       _id: 58b9816eea968c36fc9636fb },
+     { filter: 58b6c0eac00b0921b77a3c0e,
+       make: 58b6c0eac00b0921b77a3bdf,
+       model: 58b6c0eac00b0921b77a3bf9,
+       fuel: 'Petrol',
+       makeYear: 2006,
+       price: 700,
+       providerAdId: 'ad-1220600213',
+       url: 'https://www.gumtree.com/p/mitsubishi/2006-mitsubishi-colt-cz-1.1-petrol/1220600213',
+       img: 'https://i.ebayimg.com/00/s/MTAyNFg3Njg=/z/UuoAAOSwfVpYuXbS/$_99.JPG',
+       _id: 58b9816eea968c36fc9636fc },
+     { filter: 58b6c0eac00b0921b77a3c0f,
+       make: 58b6c0eac00b0921b77a3be0,
+       model: 58b6c0eac00b0921b77a3bfa,
+       fuel: 'Petrol',
+       makeYear: 2007,
+       price: 2500,
+       providerAdId: 'ad-1220597647',
+       url: 'https://www.gumtree.com/p/nissan/nissan-qashqai-2007-1.6-petrol/1220597647',
+       img: 'https://i.ebayimg.com/00/s/NTc2WDEwMjQ=/z/oKwAAOSw32lYuXNV/$_99.JPG',
+       _id: 58b9816eea968c36fc9636fd },
+     { filter: 58b6c0eac00b0921b77a3c19,
+       make: 58b6c0eac00b0921b77a3be4,
+       model: 58b6c0eac00b0921b77a3bfd,
+       fuel: 'Diesel',
+       makeYear: 2005,
+       price: 1095,
+       providerAdId: 'ad-1220602926',
+       url: 'https://www.gumtree.com/p/volkswagen/volkswagen-passat-1.9-tdi-pd-sport/1220602926',
+       img: 'https://i.ebayimg.com/00/s/MTAyNFg3Njg=/z/ZvwAAOSwSlBYuX5z/$_99.JPG',
+       _id: 58b9816eea968c36fc9636fe },
+     { filter: 58b6c0eac00b0921b77a3c19,
+       make: 58b6c0eac00b0921b77a3be4,
+       model: 58b6c0eac00b0921b77a3bfd,
+       fuel: 'Diesel',
+       makeYear: 2008,
+       price: 1195,
+       providerAdId: 'ad-1220599045',
+       url: 'https://www.gumtree.com/p/volkswagen/2008-volkswagen-passat-2.0tdi-highline-top-spec-bargain-price-£1195/1220599045',
+       img: 'https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/9bsAAOSwOgdYuXsv/$_99.JPG',
+       _id: 58b9816eea968c36fc9636ff } ],
+  insertedCount: 11,
+  insertedIds: 
+   [ 58b9816eea968c36fc9636f5,
+     58b9816eea968c36fc9636f6,
+     58b9816eea968c36fc9636f7,
+     58b9816eea968c36fc9636f8,
+     58b9816eea968c36fc9636f9,
+     58b9816eea968c36fc9636fa,
+     58b9816eea968c36fc9636fb,
+     58b9816eea968c36fc9636fc,
+     58b9816eea968c36fc9636fd,
+     58b9816eea968c36fc9636fe,
+     58b9816eea968c36fc9636ff ] }
+Send Total ads: 11
+Of user: 11
+Send mail to karka.edgaras@gmail.com
+Message <caa8dd0f-1a58-6409-14ed-3c0ec1362421@gecar.lt> sent: 250 2.0.0 OK 1488552304 x1sm2359911lfb.54 - gsmtp
+module.js:472
+    throw err;
+    ^
+
+Error: Cannot find module 'winston'
+    at Function.Module._resolveFilename (module.js:470:15)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/git/gecar2.src/gecar2/back/collector.js:12:17)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.runMain (module.js:605:10)
+    at run (bootstrap_node.js:425:7)
+    at startup (bootstrap_node.js:146:9)
+    at bootstrap_node.js:540:3
+Application command line arguments []
+Mongoose connected to mongodb://localhost/gecar
+running a task every hour
+(node:14271) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+Collect gumtree of filter bmw X5
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=bmw&vehicle_model=X5&q=&min_price=0&max_price=3500
+58b6c0eac00b0921b77a3bfe <-filterID Collected new ads: of filter:bmw X5 | 2013-2016 0-3500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3bfe
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter bmw X5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=X5&price-from=0&price-to=3500&year-from=2013&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter bmw X5
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=X5&price-from=0&price-to=3500&year-from=2013&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter bmw 530
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=bmw&vehicle_model=530&q=&min_price=0&max_price=1200&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3bff <-filterID Collected new ads: of filter:bmw 530 | 1990-2016 0-1200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3bff
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter bmw 530
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter bmw 530
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=1200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter bmw 530
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=bmw&vehicle_model=530&q=&min_price=0&max_price=2300&vehicle_fuel_type=diesel
+58b6c0eac00b0921b77a3c00 <-filterID Collected new ads: of filter:bmw 530 | 2003-2016 0-2300
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c00
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter bmw 530
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2300&year-from=2003&year-to=2016&vehicle_fuel_type=diesel&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter bmw 530
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2300&year-from=2003&year-to=2016&vehicle_fuel_type=diesel&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter bmw 523
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=bmw&vehicle_model=523&q=&min_price=0&max_price=2500&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c01 <-filterID Collected new ads: of filter:bmw 523 | 2003-2016 0-2500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c01
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter bmw 523
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter bmw 523
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=bmw&model=5 SERIES&price-from=0&price-to=2500&year-from=2003&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter chevrolet cruze
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=chevrolet&vehicle_model=cruze&q=&min_price=0&max_price=2200&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c02 <-filterID Collected new ads: of filter:chevrolet cruze | 1990-2016 0-2200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c02
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter chevrolet cruze
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=cruze&price-from=0&price-to=2200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter chevrolet cruze
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=cruze&price-from=0&price-to=2200&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter chevrolet lacetti
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=chevrolet&vehicle_model=lacetti&q=&min_price=0&max_price=800&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c03 <-filterID Collected new ads: of filter:chevrolet lacetti | 1990-2016 0-800
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c03
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter chevrolet lacetti
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=lacetti&price-from=0&price-to=800&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter chevrolet lacetti
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=chevrolet&model=lacetti&price-from=0&price-to=800&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter honda accord
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=honda&vehicle_model=accord&q=&min_price=0&max_price=1500&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c04 <-filterID Collected new ads: of filter:honda accord | 2006-2016 0-1500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c04
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter honda accord
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=honda&model=accord&price-from=0&price-to=1500&year-from=2006&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter honda accord
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=honda&model=accord&price-from=0&price-to=1500&year-from=2006&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter lexus rx
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=lexus&vehicle_model=rx&q=&min_price=0&max_price=2200
+58b6c0eac00b0921b77a3c05 <-filterID Collected new ads: of filter:lexus rx | 2003-2016 0-2200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c05
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter lexus rx
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=lexus&model=rx&price-from=0&price-to=2200&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter lexus rx
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=lexus&model=rx&price-from=0&price-to=2200&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter lexus gs
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=lexus&vehicle_model=gs&q=&min_price=0&max_price=2200
+58b6c0eac00b0921b77a3c06 <-filterID Collected new ads: of filter:lexus gs | 2003-2016 0-2200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c06
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect ebay of filter lexus gs
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=lexus&model=gs&price-from=0&price-to=2200&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect autotrader of filter lexus gs
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=lexus&model=gs&price-from=0&price-to=2200&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [0]
+=====================================================================================
+Collect gumtree of filter mazda 3
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mazda&vehicle_model=3&q=&min_price=0&max_price=1300&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c07 <-filterID Collected new ads: of filter:mazda 3 | 2004-2007 0-1300
+[ { filter: 58b6c0eac00b0921b77a3c07,
+    make: 58b6c0eac00b0921b77a3bdd,
+    model: 58b6c0eac00b0921b77a3bf0,
+    fuel: 'Petrol',
+    makeYear: 2007,
+    price: 500,
+    providerAdId: 'ad-1220612481',
+    url: 'https://www.gumtree.com/p/mazda/mazda3-£500.-no-m.o.t-exterior-damage/1220612481',
+    img: 'https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/4fgAAOSwfVpYuYKx/$_99.JPG' } ]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c07
+New ads of folter [1]Total ads [1]
+=====================================================================================
+Collect ebay of filter mazda 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [1]
+=====================================================================================
+Collect autotrader of filter mazda 3
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mazda&model=MAZDA3&price-from=0&price-to=1300&year-from=2004&year-to=2007&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [1]
+=====================================================================================
+Collect gumtree of filter mercedes-benz e-class
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mercedes-benz&vehicle_model=e-class&q=&min_price=0&max_price=2000
+58b6c0eac00b0921b77a3c08 <-filterID Collected new ads: of filter:mercedes-benz e-class | 2003-2016 0-2000
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c08
+New ads of folter [0]Total ads [1]
+=====================================================================================
+Collect ebay of filter mercedes-benz e-class
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mercedes-benz&model=E CLASS&price-from=0&price-to=2000&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [1]
+=====================================================================================
+Collect autotrader of filter mercedes-benz e-class
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mercedes-benz&model=E CLASS&price-from=0&price-to=2000&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [1]
+=====================================================================================
+Collect gumtree of filter mitsubishi l200
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=l200&q=&min_price=0&max_price=2800
+58b6c0eac00b0921b77a3c09 <-filterID Collected new ads: of filter:mitsubishi l200 | 2006-2016 0-2800
+[ { filter: 58b6c0eac00b0921b77a3c09,
+    make: 58b6c0eac00b0921b77a3bdf,
+    model: 58b6c0eac00b0921b77a3bf4,
+    fuel: 'Diesel',
+    makeYear: 2006,
+    price: 1850,
+    providerAdId: 'ad-1220607279',
+    url: 'https://www.gumtree.com/p/mitsubishi/2006-mitsubishi-l200-warrior-auto-flood-damage-/1220607279',
+    img: 'https://i.ebayimg.com/00/s/NDUwWDYwMA==/z/eg8AAOSwTM5YuYLp/$_99.JPG' } ]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c09
+New ads of folter [1]Total ads [2]
+=====================================================================================
+Collect ebay of filter mitsubishi l200
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=l200&price-from=0&price-to=2800&year-from=2006&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter mitsubishi l200
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=l200&price-from=0&price-to=2800&year-from=2006&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter mitsubishi outlander
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=outlander&q=&min_price=0&max_price=1600
+58b6c0eac00b0921b77a3c0a <-filterID Collected new ads: of filter:mitsubishi outlander | 2006-2016 0-1600
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0a
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter mitsubishi outlander
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=outlander&price-from=0&price-to=1600&year-from=2006&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter mitsubishi outlander
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=outlander&price-from=0&price-to=1600&year-from=2006&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter mitsubishi lancer
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=lancer&q=&min_price=0&max_price=1300
+58b6c0eac00b0921b77a3c0b <-filterID Collected new ads: of filter:mitsubishi lancer | 1990-2016 0-1300
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0b
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter mitsubishi lancer
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=lancer&price-from=0&price-to=1300&year-from=1990&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter mitsubishi lancer
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=lancer&price-from=0&price-to=1300&year-from=1990&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter mitsubishi shogun-sport
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=shogun-sport&q=&min_price=0&max_price=1200
+58b6c0eac00b0921b77a3c0c <-filterID Collected new ads: of filter:mitsubishi shogun-sport | 1990-2016 0-1200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0c
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter mitsubishi shogun-sport
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=SHOGUN SPORT&price-from=0&price-to=1200&year-from=1990&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter mitsubishi shogun-sport
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=SHOGUN SPORT&price-from=0&price-to=1200&year-from=1990&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter mitsubishi grandis
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=grandis&q=&min_price=0&max_price=1200
+58b6c0eac00b0921b77a3c0d <-filterID Collected new ads: of filter:mitsubishi grandis | 1990-2016 0-1200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0d
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter mitsubishi grandis
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=grandis&price-from=0&price-to=1200&year-from=1990&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter mitsubishi grandis
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=grandis&price-from=0&price-to=1200&year-from=1990&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter mitsubishi colt
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=mitsubishi&vehicle_model=colt&q=&min_price=0&max_price=900&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c0e <-filterID Collected new ads: of filter:mitsubishi colt | 1990-2016 0-900
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0e
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter mitsubishi colt
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=colt&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter mitsubishi colt
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=mitsubishi&model=colt&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter nissan qashqai
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=nissan&vehicle_model=qashqai&q=&min_price=0&max_price=2700
+58b6c0eac00b0921b77a3c0f <-filterID Collected new ads: of filter:nissan qashqai | 1990-2016 0-2700
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c0f
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter nissan qashqai
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=nissan&model=qashqai&price-from=0&price-to=2700&year-from=1990&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter nissan qashqai
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=nissan&model=qashqai&price-from=0&price-to=2700&year-from=1990&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter skoda superb
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=skoda&vehicle_model=superb&q=&min_price=0&max_price=900&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c10 <-filterID Collected new ads: of filter:skoda superb | 1990-2016 0-900
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c10
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter skoda superb
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=superb&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter skoda superb
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=superb&price-from=0&price-to=900&year-from=1990&year-to=2016&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter skoda octavia
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=skoda&vehicle_model=octavia&q=&min_price=0&max_price=800
+58b6c0eac00b0921b77a3c11 <-filterID Collected new ads: of filter:skoda octavia | 2001-2004 0-800
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c11
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter skoda octavia
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=octavia&price-from=0&price-to=800&year-from=2001&year-to=2004&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter skoda octavia
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=skoda&model=octavia&price-from=0&price-to=800&year-from=2001&year-to=2004&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter subaru tribeca
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=tribeca&q=&min_price=0&max_price=3000
+58b6c0eac00b0921b77a3c12 <-filterID Collected new ads: of filter:subaru tribeca | 1990-2008 0-3000
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c12
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter subaru tribeca
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=tribeca&price-from=0&price-to=3000&year-from=1990&year-to=2008&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter subaru tribeca
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=tribeca&price-from=0&price-to=3000&year-from=1990&year-to=2008&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter subaru forester
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=forester&q=&min_price=0&max_price=1200
+58b6c0eac00b0921b77a3c13 <-filterID Collected new ads: of filter:subaru forester | 2002-2004 0-1200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c13
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter subaru forester
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=forester&price-from=0&price-to=1200&year-from=2002&year-to=2004&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter subaru forester
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=forester&price-from=0&price-to=1200&year-from=2002&year-to=2004&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter subaru forester
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=forester&q=&min_price=0&max_price=2200
+58b6c0eac00b0921b77a3c14 <-filterID Collected new ads: of filter:subaru forester | 2005-2007 0-2200
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c14
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter subaru forester
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=forester&price-from=0&price-to=2200&year-from=2005&year-to=2007&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter subaru forester
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=forester&price-from=0&price-to=2200&year-from=2005&year-to=2007&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter subaru outback
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=outback&q=&min_price=0&max_price=2500&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c15 <-filterID Collected new ads: of filter:subaru outback | 2006-2008 0-2500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c15
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter subaru outback
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=outback&price-from=0&price-to=2500&year-from=2006&year-to=2008&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter subaru outback
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=outback&price-from=0&price-to=2500&year-from=2006&year-to=2008&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter subaru outback
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=subaru&vehicle_model=outback&q=&min_price=0&max_price=1500&vehicle_fuel_type=petrol
+58b6c0eac00b0921b77a3c16 <-filterID Collected new ads: of filter:subaru outback | 2004-2006 0-1500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c16
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter subaru outback
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=outback&price-from=0&price-to=1500&year-from=2004&year-to=2006&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter subaru outback
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=subaru&model=outback&price-from=0&price-to=1500&year-from=2004&year-to=2006&vehicle_fuel_type=petrol&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter toyota camry
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=toyota&vehicle_model=camry&q=&min_price=0&max_price=1500
+58b6c0eac00b0921b77a3c17 <-filterID Collected new ads: of filter:toyota camry | 2002-2016 0-1500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c17
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter toyota camry
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=toyota&model=camry&price-from=0&price-to=1500&year-from=2002&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter toyota camry
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=toyota&model=camry&price-from=0&price-to=1500&year-from=2002&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter toyota landcruiser
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=toyota&vehicle_model=landcruiser&q=&min_price=0&max_price=3500
+58b6c0eac00b0921b77a3c18 <-filterID Collected new ads: of filter:toyota landcruiser | 2003-2016 0-3500
+[]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c18
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect ebay of filter toyota landcruiser
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=toyota&model=LAND CRUISER&price-from=0&price-to=3500&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect autotrader of filter toyota landcruiser
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=toyota&model=LAND CRUISER&price-from=0&price-to=3500&year-from=2003&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [2]
+=====================================================================================
+Collect gumtree of filter volkswagen passat
+Gumtree:download html from:https://www.gumtree.com/search?search_category=cars&search_location=uk&vehicle_make=volkswagen&vehicle_model=passat&q=&min_price=0&max_price=1300
+58b6c0eac00b0921b77a3c19 <-filterID Collected new ads: of filter:volkswagen passat | 2005-2016 0-1300
+[ { filter: 58b6c0eac00b0921b77a3c19,
+    make: 58b6c0eac00b0921b77a3be4,
+    model: 58b6c0eac00b0921b77a3bfd,
+    fuel: 'Diesel',
+    makeYear: 2007,
+    price: 1100,
+    providerAdId: 'ad-1220613957',
+    url: 'https://www.gumtree.com/p/volkswagen/2008-volkswagen-passat-2.0tdi-sporting-/1220613957',
+    img: 'https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/AnIAAOSw~AVYuX-Z/$_99.JPG' } ]
+--------------------------------------------------------------filterId:58b6c0eac00b0921b77a3c19
+New ads of folter [1]Total ads [3]
+=====================================================================================
+Collect ebay of filter volkswagen passat
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=volkswagen&model=passat&price-from=0&price-to=1300&year-from=2005&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [3]
+=====================================================================================
+Collect autotrader of filter volkswagen passat
+https://www.autotrader.co.uk/car-search?sort=price-asc&postcode=dn91jf&make=volkswagen&model=passat&price-from=0&price-to=1300&year-from=2005&year-to=2016&page=1
+1 of 0
+New ads of folter [0]Total ads [3]
+=====================================================================================
+COLLECTING FINISHED NEW ADS SIZE[3]
+Res from db after insert many operation:
+{ result: { ok: 1, n: 3 },
+  ops: 
+   [ { filter: 58b6c0eac00b0921b77a3c07,
+       make: 58b6c0eac00b0921b77a3bdd,
+       model: 58b6c0eac00b0921b77a3bf0,
+       fuel: 'Petrol',
+       makeYear: 2007,
+       price: 500,
+       providerAdId: 'ad-1220612481',
+       url: 'https://www.gumtree.com/p/mazda/mazda3-£500.-no-m.o.t-exterior-damage/1220612481',
+       img: 'https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/4fgAAOSwfVpYuYKx/$_99.JPG',
+       _id: 58b985132cba0137bf721d8d },
+     { filter: 58b6c0eac00b0921b77a3c09,
+       make: 58b6c0eac00b0921b77a3bdf,
+       model: 58b6c0eac00b0921b77a3bf4,
+       fuel: 'Diesel',
+       makeYear: 2006,
+       price: 1850,
+       providerAdId: 'ad-1220607279',
+       url: 'https://www.gumtree.com/p/mitsubishi/2006-mitsubishi-l200-warrior-auto-flood-damage-/1220607279',
+       img: 'https://i.ebayimg.com/00/s/NDUwWDYwMA==/z/eg8AAOSwTM5YuYLp/$_99.JPG',
+       _id: 58b985132cba0137bf721d8e },
+     { filter: 58b6c0eac00b0921b77a3c19,
+       make: 58b6c0eac00b0921b77a3be4,
+       model: 58b6c0eac00b0921b77a3bfd,
+       fuel: 'Diesel',
+       makeYear: 2007,
+       price: 1100,
+       providerAdId: 'ad-1220613957',
+       url: 'https://www.gumtree.com/p/volkswagen/2008-volkswagen-passat-2.0tdi-sporting-/1220613957',
+       img: 'https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/AnIAAOSw~AVYuX-Z/$_99.JPG',
+       _id: 58b985132cba0137bf721d8f } ],
+  insertedCount: 3,
+  insertedIds: 
+   [ 58b985132cba0137bf721d8d,
+     58b985132cba0137bf721d8e,
+     58b985132cba0137bf721d8f ] }
+Send Total ads: 3
+Of user: 3
+Send mail to karka.edgaras@gmail.com
+Send mail to ge4cars@gmail.com
+Message <52390e17-340e-c289-1852-82922a57633d@gecar.lt> sent: 250 2.0.0 OK 1488553236 y1sm2339100lja.68 - gsmtp
+Message <65e19445-552a-eda5-67c2-f929ba34a380@gecar.lt> sent: 250 2.0.0 OK 1488553237 v10sm2271814lja.14 - gsmtp

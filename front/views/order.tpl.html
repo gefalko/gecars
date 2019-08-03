@@ -1,0 +1,83 @@
+<style>
+    #orderConfirmDialog {
+        padding:25px;
+    }
+    
+    #orderConfirmDialog img{
+        height:20px;
+        padding-left:10px;    
+    }
+
+    #orderConfirmDialog #durationSelect md-radio-button{
+        display:inline-block;
+    }
+
+    #orderConfirmDialog .title{
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+
+    #orderConfirmDialog .price{
+        float:right;
+    }
+
+    .inline-block{
+        display:inline-block;
+    }
+
+    .float-right{
+        float:right;
+    }
+
+    .bold{
+        font-weight:bold;
+    }
+
+    .capitalize{
+        text-transform: capitalize;
+    }
+
+</style>
+<div id="orderConfirmDialog">
+    <div class="title">Jūsų užsakymas</div>
+    <div class="bold" style="padding-bottom:10px;">Filtrai:</div>
+    <div>
+        <div ng-repeat='filter in coc.basket.filters'>
+            <div class="inline-block">
+                <div style="padding-bottom:5px">
+                    <span class="capitalize">{{filter.make.make}} {{filter.model.name}}</span> {{filter.fuelType.name}} {{filter.yearFrom}}-{{filter.yearTo}} {{filter.priceFrom}}-{{filter.priceTo}} &#8364; 
+                </div>
+                <div>
+                    <span ng-repeat="provider in filter.providers"><img src="{{provider.image}}"></img></span>
+                </div>
+            </div>
+            <div class="inline-block float-right bold">
+                {{filter.price}} &#8364;         
+            </div>    
+        </div>
+        <div style="height:40px;">
+            <div class="price bold">
+                <span ng-if="coc.order.discountSum > 0" style="display:block; font-weight:400">nuolaida: (-{{coc.order.discount}}%) -{{coc.order.discountSum}} &#8364; </span>        
+                <span>viso mokėti: {{coc.order.price}} &#8364;</span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="bold" style="padding-bottom:10px">Pasirinkite planą</div>
+        <div id="durationSelect">
+            <md-radio-group ng-model="coc.order.duration">
+
+                <md-radio-button value='{"months":1, "discount":0}' class="md-primary">mėnuo</md-radio-button>
+                <md-radio-button value='{"months":3, "discount":10}' class="md-primary">3 mėnesiai (-10%)</md-radio-button>
+                <md-radio-button value='{"months":6, "discount":20}' class="md-primary">6 mėnesiai (-20%)</md-radio-button>
+                <md-radio-button value='{"months":12, "discount":30}' class="md-primary">metams (-30%)</md-radio-button>
+
+            </md-radio-group>
+        </div>
+    </div>
+    <div style="padding-top:40px">
+         <md-button ng-click="coc.startPaymentProcess()" md-no-ink class="md-raised md-primary md-button md-ink-ripple right">Užsakyti</md-button>
+    </div>    
+</div>
+

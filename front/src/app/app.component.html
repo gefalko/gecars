@@ -1,0 +1,30 @@
+<style>
+.tab-navigation {
+    padding-bottom: 12px;
+}
+
+.tab-navigation a{
+    color: #fff;
+}
+
+.tab-navigation span.item{
+    width: 79px;
+    display: inline-block;    
+}
+
+.active-link {
+    font-weight:bold;
+}
+</style>
+<div class="tab-navigation"> 
+    <span class="item">
+        <a [routerLink]="['']" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Apie gecar</a>
+    </span>
+    <span style="color:#FFEF00">|</span>
+    <span class="item">
+        <a [routerLink]="['about']" routerLinkActive="active-link">Kainodara</a>
+    </span>
+</div>
+<div class="content">
+    <router-outlet></router-outlet>
+</div>    

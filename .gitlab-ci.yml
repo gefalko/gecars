@@ -1,0 +1,12 @@
+  deploy_prod:
+    script:
+      - apt-get update
+      - apt-get install sshpass
+      - sshpass -V
+      - echo $USER_PASS
+      - export SSHPASS=$USER_PASS
+      - sshpass -p $USER_PASS ssh -o StrictHostKeyChecking=no git@gepick.com sh gecar2.src/gecar2/deploy.sh
+      - echo "FINISH"
+    only:
+      - master
+

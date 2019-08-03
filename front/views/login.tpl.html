@@ -1,0 +1,119 @@
+<style>
+
+.loginDialog md-input-container{
+    height:35px;
+}
+
+.loginDialog .text{
+    float: right;
+    font-size: 13px;
+}
+
+.loginDialog .link:HOVER{
+    cursor:pointer;
+    text-decoration:underline;    
+}
+
+.loginDialog .error{
+    color: rgb(221,44,0);
+    font-size: 11px;
+    padding-left: 5px;
+}
+
+</style>
+<div ng-show="showLogin" class='loginDialog' style='padding:25px'>
+    <form name='loginForm' ng-submit="doLogin(login)" novalidate> 
+        <div>
+            Prisijungimas
+        </div>
+        <div>
+            <md-input-container>
+                <label>El. paštas</label>
+                <input type='email' name="email" ng-model="login.email" required ></input>
+            </md-input-container> 
+            <div>
+                <div ng-messages="loginForm.$submitted && loginForm.email.$error">
+                     <div class="error" ng-message="required">*e-pašto adresas yra privalomas</div>
+                     <div class="error" ng-message="email">*netinkamas el-pašto formatas</div>
+                </div>
+            </div>
+        </div>
+        <div>    
+            <md-input-container>
+                <label>Slaptažodis</label>
+                <input type='password' name="pass" ng-model="login.pass" required ng-maxlength="30" ng-minlength="6"></input>
+            </md-input-container>
+            <div>
+                <div ng-messages="loginForm.$submitted && loginForm.pass.$error">
+                     <div class="error" ng-message="required">*slaptažodis yra privalomas</div>
+                     <div class="error" ng-message="minlength">*slaptažodis yra per trumpas</div>
+                     <div class="error" ng-message="maxlength">*slaptažodis yra per ilgas</div>
+                </div>
+            </div>
+        </div>
+        <div class='text'>
+            <span class='link' ng-click="openRegistration()"><span>registracija</span></span>
+        </div>
+        <div>
+             <md-button type='submit' >
+                prisijungti
+             </md-button>
+        </div>
+    </form>
+ </div>
+     
+<div ng-show="showRegistration" class='loginDialog' style='padding:25px'>
+    <form name="registrationForm" ng-submit='doRegistration(reg)' novalidate> 
+        <div>
+            Registracija
+        </div>
+        <div>
+            <md-input-container>
+                <label>El. paštas</label>
+                <input type='email' name="email" ng-model="reg.email" required unique-email></input>
+            </md-input-container>
+            <div>
+                <div ng-messages="registrationForm.$submitted && registrationForm.email.$error">
+                     <div class="error" ng-message="required">*e-pašto adresas yra privalomas</div>
+                     <div class="error" ng-message="email">*netinkamas el-pašto formatas</div>
+                     <div class="error" ng-message="emailExist">*toks e-paštas jau užregistruotas</div>
+                </div>
+            </div>
+        </div>
+        <div>    
+            <md-input-container>
+                <label>Slaptažodis</label>
+                <input type='password' name="pass" ng-model="reg.pass" required  ng-maxlength="30" ng-minlength="6"></input>
+            </md-input-container>
+            <div>
+                <div ng-messages="registrationForm.$submitted && registrationForm.pass.$error">
+                    <div class="error" ng-message="required">*slaptažodis yra privalomas</div>
+                    <div class="error" ng-message="minlength">*slaptažodis yra per trumpas</div>
+                    <div class="error" ng-message="maxlength">*slaptažodis yra per ilgas</div>
+                </div>
+            </div>
+        </div> 
+        <div>    
+            <md-input-container>
+                <label>Pakartoti slaptažodį</label>
+                <input type='password' name="rePass" ng-model="reg.rePass" required  ng-maxlength="30" ng-minlength="6" compare-to="reg.pass"></input>
+            </md-input-container>
+            <div>
+                <div ng-messages="registrationForm.$submitted && registrationForm.rePass.$error">
+                    <div class="error" ng-message="required">*slaptažodis yra privalomas</div>
+                    <div class="error" ng-message="minlength">*slaptažodis yra per trumpas</div>
+                    <div class="error" ng-message="maxlength">*slaptažodis yra per ilgas</div> 
+                    <div class="error" ng-message="compareTo">*slaptažodžiai turi sutapti</div>
+                </div>
+            </div>
+        </div>
+        <div class='text'>
+            <span class='link' ng-click="openLogin()"><span>Prisijungti</span></span></span>
+        </div>
+        <div>
+             <md-button type="submit">
+                registruotis
+             </md-button>
+        </div>
+    </form>
+ </div>
