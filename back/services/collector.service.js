@@ -1,16 +1,15 @@
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
         function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const gumtree_1 = require("../providers/gumtree/gumtree");
 const AdModel_1 = require("../models/ad/AdModel");
-const httpRequest_1 = require("./httpRequest");
 const lodash_1 = require("lodash");
 const mongoose = require('mongoose');
 require('./../models/db');
@@ -19,16 +18,17 @@ const ebay = require('./../providers/Ebay/ebay');
 const httpSer = require('./http.service.js');
 const colors = require('colors');
 const debug = true;
-exports.collect = (strategy, filter) => __awaiter(this, void 0, void 0, function* () {
+exports.collect = (strategy, filter) => __awaiter(void 0, void 0, void 0, function* () {
     console.log("------------------------PROVIDER IS:" + strategy + "----------------------------------");
     const addFilterIdAndProvider = (ads) => {
         console.log('addFilterIdAndProvider', ads);
-        return lodash_1.map(ads, ad => { return Object.assign({}, ad, { strategy }); });
+        return lodash_1.map(ads, ad => { return Object.assign(Object.assign({}, ad), { strategy }); });
     };
     try {
         switch (strategy) {
             case 'gumtree':
-                return addFilterIdAndProvider(yield new gumtree_1.Gumtree(new httpRequest_1.httpRequest()).getNewAds(filter));
+                return [];
+            //return  addFilterIdAndProvider(await new Gumtree(new httpRequest()).getNewAds(filter))
             case 'autotrader':
                 return addFilterIdAndProvider(yield autotraderCtrl.getFiltrededAds(filter, httpSer));
             case 'ebay':

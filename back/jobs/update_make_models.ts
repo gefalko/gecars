@@ -72,7 +72,6 @@ async function init() {
         console.log("process make "+_make.make+" ".blue);
 
         let make = await findMake(_make.make);
-
         let saveMake = false;
 
         if(!make){

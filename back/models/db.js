@@ -2,7 +2,14 @@ const mongoose = require('mongoose');
 var gracefulShutdown;
 const dbURI = 'mongodb://localhost/gecar';
 
-mongoose.connect(dbURI);
+mongoose.Promise = global.Promise
+mongoose.createConnection(dbURI, {
+    useMongoClient: true,
+})
+.then(() => console.log('Connected to MongoDB ...'))
+.catch(err => console.error('Could not connect to MongoDB:‌', err));
+
+
 
 // CONNECTION EVENTS
 mongoose.connection.on('connected', function() {
