@@ -40,11 +40,12 @@
   },
   "scripts": {
     "build": "tsc",
+    "build-collector": "tsc ----skipLibCheck jobs/collector.ts",
     "start-babel-server": "babel-node ./jobs/server.js",
     "build-server": "tsc ./jobs/server.ts",
     "test": "jasmine-ts \"spec/**/*/*Spec.ts\""
   },
-  { "husky": { "hooks": { "pre-commit": "pretty-quick --staged" } } },
+  "husky": { "hooks": { "pre-commit": "pretty-quick --staged" } },
   "author": "geFalko",
   "license": "ISC"
 }
