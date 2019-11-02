@@ -10,5 +10,9 @@
     "jobs/**/*.ts",
     "data_control/**/*.ts",
     "node_modules/@types",
-  ]
+  ],
+  "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
 }

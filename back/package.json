@@ -34,8 +34,9 @@
     "jasmine-console-reporter": "^1.2.7",
     "jasmine-spec-reporter": "^4.1.0",
     "jasmine-ts": "^0.2.1",
+    "prettier": "1.18.2",
     "require-text": "0.0.1",
-    "typescript": "^2.7.0-dev.20171109"
+    "typescript": "^3.6.4"
   },
   "scripts": {
     "build": "tsc",
@@ -43,6 +44,7 @@
     "build-server": "tsc ./jobs/server.ts",
     "test": "jasmine-ts \"spec/**/*/*Spec.ts\""
   },
+  { "husky": { "hooks": { "pre-commit": "pretty-quick --staged" } } },
   "author": "geFalko",
   "license": "ISC"
 }

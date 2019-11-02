@@ -70,14 +70,24 @@ const collectOrders = function (debug) {
     return __awaiter(this, void 0, void 0, function* () {
         // load users
         console.log('Start collect orders.');
-        const users = yield UserModel_1.User.find({}).populate({
-            path: 'orders',
-            populate: [{
-                    path: 'filters',
-                    model: 'Filter',
-                    populate: [{ path: 'providers' }, { path: 'make', modelType: 'Make' }, { path: 'modelType', modelType: 'modelType' },]
-                }, { path: 'user', model: 'User' }]
-        });
+        let users;
+        try {
+            users = yield UserModel_1.User.find({}).populate({
+                path: 'orders',
+                populate: [{
+                        path: 'filters',
+                        model: 'Filter',
+                        populate: [{ path: 'providers' }, { path: 'make', modelType: 'Make' }, {
+                                path: 'modelType',
+                                modelType: 'modelType'
+                            },]
+                    }, { path: 'user', model: 'User' }]
+            });
+        }
+        catch (e) {
+            console.log('error while getting users');
+            console.log(e);
+        }
         console.log('users');
         console.log(JSON.stringify(users));
         for (let user of users) {
@@ -105,10 +115,11 @@ const collectOrders = function (debug) {
 };
 const args = process.argv.slice(2);
 console.log("Application command line arguments", args);
+setTimeout(() => collectOrders(true), 1000);
 if (args[0] == 'debug') {
     collectOrders(true);
 }
-cron.schedule('0 * * * *', function () {
-    console.log('running a task every hour');
-    collectOrders(false);
-});
+// cron.schedule('0 * * * *', function () {
+//     console.log('running a task every hour');
+//     collectOrders(false);
+// });
